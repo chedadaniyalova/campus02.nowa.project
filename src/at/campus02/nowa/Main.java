@@ -1,16 +1,19 @@
 package at.campus02.nowa;
 
+import at.campus02.nowa.figures.*;
+
 import java.util.Scanner;
 
 /* Diese Datei NICHT ändern! */
 
 public class Main {
-    public static  void main (String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         App app = new App(input, System.out);
         app.Run();
         input.close();
         System.out.println("Das Programm wird beendet ...");
+
     }
 }
 
